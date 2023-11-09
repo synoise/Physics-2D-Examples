@@ -7,7 +7,7 @@ public class Coin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //dwowqfpof
     }
     
     void OnCollisionEnter2D(Collision2D col)
