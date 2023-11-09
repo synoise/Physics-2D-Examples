@@ -10,12 +10,12 @@ namespace EasyParallax
         public MovementSpeedType movementSpeedType;
 
         [Tooltip("Used only if no movement speed type is specified")]
-        public float speed = 0.1f;
+        public float speed = 1f;
 
         private void Awake()
         {
             if (movementSpeedType)
-                speed = movementSpeedType.speed/20;
+                speed = movementSpeedType.speed;
         }
 
         private void Update()
